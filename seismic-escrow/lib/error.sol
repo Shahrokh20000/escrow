@@ -1,0 +1,26 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.34;
+error DeadlineEnded();
+error VoterHasAlreadyVoted();
+error BalanceNotArrived();
+error InvalidHashInput();
+error DealNotInProgress();
+error InvalidCaller();
+error InsufficientFunds();
+error TransferHelper_TransferFailed();
+error TransferHelper_TransferFromFailed();
+error TransferHelper_EthTransferFailed();
+error TransferHelper_BalanceOfFailed();
+error OnlyHub();
+error InitializingFailed();
+error BargainCreationFailed();
+error InvalidCallerOnlyRiftAddressesAllowed();
+error SetGlobalFeeFailed();
+error NoSettlementForThisJudge();
+error NFTTransferFailed();
+error CheckNFTBalanceFailed();
+error OwnershipTransferFailed();
+error TooMuchAssets();
+error NativeNotExpected();
+error SettlementFailed();
+error SafeNFTTransferFailed();
